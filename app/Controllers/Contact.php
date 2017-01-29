@@ -20,6 +20,10 @@ class Contact extends Controller {
 
     public function index(){
     	/* A voir avec les templates*/
+
+    	$data['siteurl'] = SITEURL;
+        $data['title'] = "Contact";
+        $data['descriptionMeta'] = "Contactez-nous pour plus d'informations concernant la période ou le lieu, afin de mieux vous aiguillez pendant votre séjour.";
     }
 
     public function sendForm(){
