@@ -27,8 +27,8 @@
 */
 ?>
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="brand">Gite de Langlebert</div>
+    <div class="address-bar">1 Route de Serques |  62910 Moulle | 06 89 61 46 79</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
