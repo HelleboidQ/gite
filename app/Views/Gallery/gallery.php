@@ -2,10 +2,8 @@
 	<div class="row">
 
 		  {% for image in images %}
-
-		 	{{ image }}
 		 	<div class="col-xs-4">
-
+		 	<img src="{{ image }}" class="img-responsive" />
 		 	</div>
 		  {% endfor %}
 	</div>

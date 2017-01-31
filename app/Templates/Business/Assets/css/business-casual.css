@@ -192,3 +192,9 @@ footer p {
         clear: both;
     }
 }
+.img-responsive{
+    display:block;
+    margin:auto;
+    height:auto;
+    width:auto
+}
