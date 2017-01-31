@@ -57,7 +57,7 @@
                         <a href="about">A propos</a>
                     </li>
                     <li>
-                        <a href="reservation.html">R&eacute;servation</a>
+                        <a href="reservation">R&eacute;servation</a>
                     </li>
                     <li>
                         <a href="contact">Contact</a>
