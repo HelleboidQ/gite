@@ -33,6 +33,8 @@ Router::any('/gallery', 'App\Controllers\Gallery@index');
 // Contact Routing
 Router::any('/contact', 'App\Controllers\Contact@index');
 
+// About Routing
+Router::any('/about', 'App\Controllers\About@index');
 // ORM Generator
 if($_SERVER["SERVER_NAME"]=="localhost") {
     Router::any("generateorm",'App\Modules\ORM\ORMGenerator@index');

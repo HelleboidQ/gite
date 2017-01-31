@@ -54,7 +54,7 @@
                         <a href="gallery">Galerie</a>
                     </li>
                     <li>
-                        <a href="about.html">A propos</a>
+                        <a href="about">A propos</a>
                     </li>
                     <li>
                         <a href="reservation.html">R&eacute;servation</a>
