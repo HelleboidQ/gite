@@ -8,9 +8,11 @@ namespace App\Controllers;
 
 use Core\View;
 use Core\Controller;
-use Helpers\Url;
+use Helpers\DB\Entity;
+use Helpers\DB\EntityManager;
 use Helpers\Session;
 use Helpers\Twig;
+use Helpers\Url;
 
 class Gallery extends Controller {
 
@@ -26,7 +28,7 @@ class Gallery extends Controller {
     	$images = [];
     	while($entry = readdir($dir_handle)){
     		if(is_file($dir.'/'.$entry)){
-    			array_push($images, $$dir.'/'.$entry);
+    			array_push($images, $dir.'/'.$entry);
     		}
     		
     	}
@@ -37,7 +39,7 @@ class Gallery extends Controller {
         $data['descriptionMeta'] = "Profitez de ces petites photos pour vous représenter au mieux le lieu de votre prochain séjour. ";
 
         View::renderTemplate('header', $data);
-        View::render('Gallery/gallery', $data);
+        Twig::render('Gallery/gallery', $data, 'php');
         View::renderTemplate('footer', $data);
     }
 
