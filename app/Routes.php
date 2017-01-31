@@ -35,6 +35,8 @@ Router::any('/contact', 'App\Controllers\Contact@index');
 
 // About Routing
 Router::any('/about', 'App\Controllers\About@index');
+// Reservation Routing
+Router::any('/about', 'App\Controllers\Reservation@index');
 // ORM Generator
 if($_SERVER["SERVER_NAME"]=="localhost") {
     Router::any("generateorm",'App\Modules\ORM\ORMGenerator@index');
