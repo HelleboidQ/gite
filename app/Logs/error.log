@@ -320,3 +320,747 @@ Exception information:
 
            ---------
 
+Exception information:
+
+           Date: Jan 30, 2017 22:30PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:09PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:14PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:14PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:17PM
+
+           Message: Unable to find template "gallery.php.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.php.twi...')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.php.twi...')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.php.twi...', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.php.twi...')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.php.twi...', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery...', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery...', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:17PM
+
+           Message: Unable to find template "gallery.php.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.php.twi...')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.php.twi...')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.php.twi...', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.php.twi...')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.php.twi...', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery...', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery...', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:17PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(40): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:19PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 30, 2017 23:20PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 9:29AM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:17PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:17PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:17PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:19PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:21PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:25PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:25PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:25PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:29PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:34PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:35PM
+
+           Message: Unable to find template "gallery.twig" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery.twig')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery.twig')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery.twig', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery.twig')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery.twig', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, 'twig')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array)
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:38PM
+
+           Message: Unable to find template "gallery..php" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery..php')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery..php')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery..php', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery..php')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery..php', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, '.php')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array, '.php')
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:38PM
+
+           Message: Unable to find template "gallery..php" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery..php')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery..php')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery..php', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery..php')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery..php', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, '.php')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array, '.php')
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Jan 31, 2017 13:38PM
+
+           Message: Unable to find template "gallery..php" (looked into: /Users/dylanlecigne/Sites/gite/app/Views/Gallery).
+
+           Code: 0
+
+           File: /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('gallery..php')
+#1 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('gallery..php')
+#2 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('gallery..php', NULL)
+#3 /Users/dylanlecigne/Sites/gite/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('gallery..php')
+#4 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(88): Twig_Environment->render('gallery..php', Array)
+#5 /Users/dylanlecigne/Sites/gite/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Gallery/gallery', Array, '.php')
+#6 /Users/dylanlecigne/Sites/gite/app/Controllers/Gallery.php(42): Helpers\Twig::render('Gallery/gallery', Array, '.php')
+#7 [internal function]: App\Controllers\Gallery->index()
+#8 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/dylanlecigne/Sites/gite/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/dylanlecigne/Sites/gite/app/Routes.php(50): Core\Router->dispatch()
+#12 /Users/dylanlecigne/Sites/gite/index.php(73): require('/Users/dylanlec...')
+#13 {main}
+
+           ---------
+
