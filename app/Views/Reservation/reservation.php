@@ -1,0 +1,1 @@
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ffffff&amp;src=4s6e6aeqrns4jki0sn2cq7kc0o%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Europe%2FParis" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

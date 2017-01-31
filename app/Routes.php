@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Routes - all standard routes are defined here.
  *
@@ -14,9 +15,9 @@ use Helpers\Hooks;
 $router = Router::getInstance();
 
 /** Define static routes. */
-
 // Default Routing
 Router::any('', 'App\Controllers\Welcome@index');
+Router::any('/gite', 'App\Controllers\Welcome@index');
 Router::any('subpage', 'App\Controllers\Welcome@subPage');
 
 
@@ -36,20 +37,18 @@ Router::any('/contact', 'App\Controllers\Contact@index');
 // About Routing
 Router::any('/about', 'App\Controllers\About@index');
 // Reservation Routing
-Router::any('/about', 'App\Controllers\Reservation@index');
+Router::any('/reservation', 'App\Controllers\Reservation@index');
 // ORM Generator
-if($_SERVER["SERVER_NAME"]=="localhost") {
-    Router::any("generateorm",'App\Modules\ORM\ORMGenerator@index');
-    Router::any("generateorm/confirm",'App\Modules\ORM\ORMGenerator@generate');
+if ($_SERVER["SERVER_NAME"] == "localhost") {
+    Router::any("generateorm", 'App\Modules\ORM\ORMGenerator@index');
+    Router::any("generateorm/confirm", 'App\Modules\ORM\ORMGenerator@generate');
 }
 
 /** End default routes */
-
 /** Module routes. */
 $hooks = Hooks::get();
 $hooks->run('routes');
 /** End Module routes. */
-
 /** If no route found. */
 Router::error('Core\Error@index');
 
