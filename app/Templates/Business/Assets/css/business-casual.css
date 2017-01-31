@@ -192,9 +192,13 @@ footer p {
         clear: both;
     }
 }
-.img-responsive{
-    display:block;
-    margin:auto;
-    height:auto;
-    width:auto
+/*.img-responsive{
+    /*display:block;
+    margin:auto;*/
+    /*height:auto;
+    width:auto;
+}*/
+.div_img{
+    height:250px;
+    cursor:pointer;
 }
