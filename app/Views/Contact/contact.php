@@ -1,5 +1,6 @@
 <div class="container">
 	<div class="row">
+        <a href="https://goo.gl/UWZ5b5"> Note Google ici </a>
 		<form class="form-horizontal" role="form" action="contact/envoieForm" method="post">
                 <div class="form-group">
                     <label for="inputEmail1" class="col-lg-4 control-label"></label>
