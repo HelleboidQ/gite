@@ -29,13 +29,13 @@ Router::any('/utilisateur/modification', 'App\Modules\User\User@change_password'
 
 
 // Gallery Routing
-Router::any('/gallery', 'App\Controllers\Gallery@index');
+Router::any('/aux-alentours', 'App\Controllers\Gallery@index');
 
 // Contact Routing
 Router::any('/contact', 'App\Controllers\Contact@index');
 
 // About Routing
-Router::any('/about', 'App\Controllers\About@index');
+Router::any('/a-propos', 'App\Controllers\About@index');
 // Reservation Routing
 Router::any('/reservation', 'App\Controllers\Reservation@index');
 // ORM Generator
