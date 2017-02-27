@@ -51,10 +51,10 @@
                             <a href="gite">Accueil</a>
                         </li>
                         <li>
-                            <a href="gallery">Galerie</a>
+                            <a href="aux-alentours">Aux alentours</a>
                         </li>
                         <li>
-                            <a href="about">A propos</a>
+                            <a href="a-propos">A propos</a>
                         </li>
                         <li>
                             <a href="reservation">R&eacute;servation</a>
