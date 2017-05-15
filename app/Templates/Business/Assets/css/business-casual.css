@@ -212,7 +212,8 @@ footer p {
   display:bloc;
   margin:auto;
    border-radius: 3px;
-  
+
+  width:300px;
 }
 
 .tableau_tarification th{
@@ -220,18 +221,35 @@ footer p {
   /*  border : 1px solid #FFF9E2; */
    
     border-collapse : collapse;
+    padding:10px;
 }
 .tableau_tarification td{
     background-color:#7F7F81;
    /* border : 1px solid #FFF9E2;*/
+   padding:10px;
 }
 
 .titre_tarif{
     color:#FFF9E2;
     text-align: center;
+    font-size:20px;
 }
+
+#infos_compl_tarif{
+    margin-top:30px;
+     color:#FFF9E2;
+}
+#infos_compl_tarif ul,li{
+     color:#FFF9E2;
+}
+
 .en_tete_tableau_tarif {
      border-radius: 5px;
-     
+
     border-collapse : collapse;
+}
+
+#send_mail{
+    display:block;
+    margin:auto;
 }
