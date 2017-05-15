@@ -44,8 +44,8 @@
   <p id="infos_compl_tarif">
   Informations compl&eacute;mentaires : 
   	<ul>
-  		<li>Montant de la caution : 300 &euro;</li>
-  		<li>Montant de la caution animal : 100.00 &euro;</li>
+  		<li>Montant de la caution : 300&nbsp;&euro;</li>
+  		<li>Montant de la caution animal : 100,00&nbsp;&euro;</li>
   		<li>Electricit&eacute; : 8 kwh/jour inclus. Consommation suppl&eacute;mentaire factur&eacute;e selon compteur.</li>
   	</ul>
   </p>
