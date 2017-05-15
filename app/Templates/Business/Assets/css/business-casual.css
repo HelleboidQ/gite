@@ -202,3 +202,36 @@ footer p {
     height:250px;
     cursor:pointer;
 }
+
+.tableau_tarification{
+    color:#FFF9E2;
+    border-radius: 30%;
+    border-collapse : collapse;
+     -webkit-border-radius: 0 0 0 10px; 
+  border-radius: 0 0 0 10px; 
+  display:bloc;
+  margin:auto;
+   border-radius: 3px;
+  
+}
+
+.tableau_tarification th{
+    background-color:#648caf;
+  /*  border : 1px solid #FFF9E2; */
+   
+    border-collapse : collapse;
+}
+.tableau_tarification td{
+    background-color:#7F7F81;
+   /* border : 1px solid #FFF9E2;*/
+}
+
+.titre_tarif{
+    color:#FFF9E2;
+    text-align: center;
+}
+.en_tete_tableau_tarif {
+     border-radius: 5px;
+     
+    border-collapse : collapse;
+}
