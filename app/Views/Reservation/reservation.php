@@ -1,7 +1,8 @@
+
   <div class="container">
   <div class="row">
   <div class="col-md-8 col-xs-12">
-  <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ffffff&amp;src=4s6e6aeqrns4jki0sn2cq7kc0o%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Europe%2FParis" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ffffff&amp;src=4s6e6aeqrns4jki0sn2cq7kc0o%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Europe%2FParis" style="border-width:0" width="640" height="600" frameborder="0" scrolling="no"></iframe>
   </div>
   <div class="col-md-4 col-xs-12">
   <!-- Tableau pour la semaine -->
@@ -40,14 +41,14 @@
      </tr>	
   </table>
 
-  <p>
+  <p id="infos_compl_tarif">
   Informations compl&eacute;mentaires : 
   	<ul>
-  		<li>Montant de la caution : 300 €</li>
-  		<li>Montant de la caution animal : 100.00 €</li>
+  		<li>Montant de la caution : 300 &euro;</li>
+  		<li>Montant de la caution animal : 100.00 &euro;</li>
   		<li>Electricit&eacute; : 8 kwh/jour inclus. Consommation suppl&eacute;mentaire factur&eacute;e selon compteur.</li>
   	</ul>
   </p>
     </div>
-  </div>
-  </div>
+    </div>
+      </div>
