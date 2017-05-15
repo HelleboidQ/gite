@@ -13,7 +13,7 @@
          <th class="col-xs-8">Saison</th>
          <th class="col-xs-4">Tarif</th>
      </tr>
-     <tr>
+     <tr class="haute_saison_tb">
      		<td class="col-xs-8">Haute Saison</td>
      		<td class="col-xs-4">400&euro;</td>
      </tr>
@@ -31,7 +31,7 @@
          <th class="col-xs-8">Saison</th>
          <th class="col-xs-4">Tarif</th>
      </tr>
-     <tr>
+     <tr class="haute_saison_tb">
      		<td class="col-xs-8">Haute Saison</td>
      		<td class="col-xs-4">400&euro;</td>
      </tr>
@@ -45,7 +45,7 @@
   Informations compl&eacute;mentaires : 
   	<ul>
   		<li>Montant de la caution : 300&nbsp;&euro;</li>
-  		<li>Montant de la caution animal : 100,00&nbsp;&euro;</li>
+  		<li>Montant de la caution animal : 100&nbsp;&euro;</li>
   		<li>Electricit&eacute; : 8 kwh/jour inclus. Consommation suppl&eacute;mentaire factur&eacute;e selon compteur.</li>
   	</ul>
   </p>
