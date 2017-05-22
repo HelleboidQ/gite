@@ -49,7 +49,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="gite">Accueil</a>
+                            <a href="<?= $_SERVER['SERVER_NAME'] == 'localhost' ?'gite':'' ?>">Accueil</a>
                         </li>
                         <li>
                             <a href="aux-alentours">Aux alentours</a>
