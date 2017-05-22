@@ -1,6 +1,5 @@
 <div class="container">
 	<div class="row">
-        <a href="https://goo.gl/UWZ5b5" id="lien_notation" class="col-xs-12"> Dites nous tout! Notez notre g&icirc;te ici </a>
         <h2 id="titre_contact" class="col-xs-12">Pour toutes questions suppl&eacute;mentaires, contactez nous: </h2>
 		<form class="form-horizontal" role="form" action="contact/envoieForm" method="post" id="form_email" >
                 <div class="form-group">
