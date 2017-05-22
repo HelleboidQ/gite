@@ -53,8 +53,7 @@ class Contact extends Controller {
             $headers .= "From: $nom <$mail>\r\nReply-to : $nom <$mail>\nX-Mailer:PHP";
 
             $subject = "$objet";
-            //$destinataire = "quentin.helleboid@gmail.com";
-            $destinataire = "dylan.lecigne@gmail.com";
+            $destinataire = "quentin.helleboid@gmail.com";
             $body = "$message";
             if (mail($destinataire, $subject, $body, $headers)) {
                 echo "Votre mail a été envoyé<br>";

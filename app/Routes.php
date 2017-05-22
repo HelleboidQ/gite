@@ -38,6 +38,8 @@ Router::any('/contact', 'App\Controllers\Contact@index');
 Router::any('/a-propos', 'App\Controllers\About@index');
 // Reservation Routing
 Router::any('/reservation', 'App\Controllers\Reservation@index');
+// Mentions legales Routing
+Router::any('/mentionsLegales', 'App\Controllers\MentionsLegales@index');
 // ORM Generator
 if ($_SERVER["SERVER_NAME"] == "localhost") {
     Router::any("generateorm", 'App\Modules\ORM\ORMGenerator@index');

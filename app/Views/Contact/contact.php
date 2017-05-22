@@ -21,6 +21,9 @@
                         <textarea  class="form-control" name="message" required placeholder="Message ..." rows="8" ></textarea>
                     </div>
                 </div>
+                 <div class="form-group">
+                        <div class="g-recaptcha col-lg-12" data-sitekey="6LfZMSYTAAAAAAw3tibuzOdPyyd3jitLrYnSkUMG"></div>
+                </div>
                 <div class="form-group">
                     <div class="col-lg-12">
                         <button type="submit" name="envoyer" id="send_mail" class="btn btn-success">Envoyer</button>
@@ -29,3 +32,4 @@
             </form><!-- form -->
 	</div>
 </div>
+<script src='https://www.google.com/recaptcha/api.js'></script>
