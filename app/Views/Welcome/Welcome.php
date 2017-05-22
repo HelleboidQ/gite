@@ -1,7 +1,4 @@
 <div class="container">
-
-    
-
     <div class="row">
         <div class="box col-xs-12">
             <div class="row">
@@ -23,5 +20,4 @@
             </div>
         </div>
     </div>
-
 </div>
