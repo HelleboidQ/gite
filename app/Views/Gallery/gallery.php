@@ -19,7 +19,7 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 50px;
   left: 0;
   top: 0;
   width: 100%;
@@ -35,7 +35,7 @@
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 /* The Close Button */
@@ -121,6 +121,10 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
+.col-xs-4 p{
+  padding-left:10px;
+}
 </style>
 
 <div class="container">
@@ -130,79 +134,79 @@ img.hover-shadow {
 			<div class="row">
 				<div class="col-xs-4"> 
 				 	<img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="openModal();currentSlide(1)" class=" col-xs-12 img-responsive" alt="Cathedrale" />
-				 	<p>Cathedrale Notre Dame Philippe Hudelle Balades en Audomarois</p> 
+				 	<p>Cathedrale Notre Dame - Philippe Hudelle Balades en Audomarois</p> 
 				</div>
 
 				<div class="col-xs-4"> 
 				 	<img src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO.jpg" onclick="openModal();currentSlide(2)"  class="  col-xs-12 img-responsive" alt="" />
-				 	<p>2014 Facade renovee CHAPELLE DES JESUITES OTRSO</p> 
+				 	<p>Chapelle des Jesuites - Otrso</p> 
 				</div>
 
 				<div class="col-xs-4"> 
 				 	<img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" onclick="openModal();currentSlide(3)"  class=" col-xs-12 img-responsive" alt="" />
-				 	<p>BACOVE_2013OTRSO</p> 
+				 	<p>Bacove - Otrso</p> 
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12">
 			<div class="row">
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/MotteCastrale023.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>Balades en Audomarois, P.Hudelle - Motte Castrale 023</p> 
+		 	<img src="app/Templates/Business/Assets/images/MotteCastrale023.jpg" onclick="openModal();currentSlide(4)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Motte Castrale - Philippe Hudelle Balades en Audomarois</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/claimaraisbareaux42010.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>claimarais bareaux4  2010-Photo Carl-Office de Tourisme de la Region de Saint-Omer</p> 
+		 	<img src="app/Templates/Business/Assets/images/claimaraisbareaux42010.jpg" onclick="openModal();currentSlide(5)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Claimarais - Office de Tourisme de la Region de Saint-Omer</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/claimaraispaysageprintemps.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>claimarais paysage printemps 063 2013-Photo Carl-Office de Tourisme de la Region de Saint-Omer</p> 
+		 	<img src="app/Templates/Business/Assets/images/claimaraispaysageprintemps.jpg" onclick="openModal();currentSlide(6)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Claimarais - Carl - Office de Tourisme de la Region de Saint-Omer</p> 
 		</div>
 </div>
 		</div>
 		<div class="col-xs-12">
 			<div class="row">
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/claimarais_romelaere.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>claimarais romelaere promenade 04  2011-Photo Carl-Office de Tourisme de la Region de Saint-Omer</p> 
+		 	<img src="app/Templates/Business/Assets/images/claimarais_romelaere.jpg" onclick="openModal();currentSlide(7)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Claimarais, Romelaere - Carl - Office de Tourisme de la Region de Saint-Omer</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/ClairmaraisMaraisRomelaere.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>Clairmarais Marais Romelaere 03  2010 - Comimatex - Office de Tourisme de la Region de Saint-Omer</p> 
+		 	<img src="app/Templates/Business/Assets/images/ClairmaraisMaraisRomelaere.jpg" onclick="openModal();currentSlide(8)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Clairmarais, Romelaere - Comimatex - Office de Tourisme de la Region de Saint-Omer</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/DOMELaCoupole.JPG" class="col-xs-12 img-responsive" alt="" />
-		 	<p>DOME  La Coupole</p> 
+		 	<img src="app/Templates/Business/Assets/images/DOMELaCoupole.JPG" onclick="openModal();currentSlide(9)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Dome de la Coupole - La Coupole</p> 
 		</div>
 </div>
 		</div>
 		<div class="col-xs-12">
 			<div class="row">
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.JPG" class="col-xs-12 img-responsive" alt="" />
-		 	<p>LACOUPOLE INTERIEUR La Coupole</p> 
+		 	<img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.JPG" onclick="openModal();currentSlide(10)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>La Coupole</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.JPG" class="col-xs-12 img-responsive" alt="" />
-		 	<p>RUINES SAINT BERTINOTRSO</p> 
+		 	<img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.JPG" onclick="openModal();currentSlide(11)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Ruines Saint Bertin - Otrso</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/SaintOmerCathedraleNotre-Dame.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>Saint-Omer Cathedrale Notre-Dame 024 2013-PhotoCarl-Office de Tourisme de la Region de Saint-Omer</p> 
+		 	<img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" onclick="openModal();currentSlide(12)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Saint-Omer Cathedrale Notre-Dame - Carl - Office de Tourisme de la Region de Saint-Omer</p> 
 		</div>
 </div>
 		</div>
 		<div class="col-xs-12">
 			<div class="row">
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/vueaeriennemaraisaudomaroisIsnor.jpg" class="col-xs-12 img-responsive" alt="" />
-		 	<p>vue aerienne marais audomarois  Isnor.jpg</p> 
+		 	<img src="app/Templates/Business/Assets/images/vueaeriennemaraisaudomaroisIsnor.jpg" onclick="openModal();currentSlide(13)" class="col-xs-12 img-responsive" alt="" />
+		 	<p>Marais audomarois - Isnor</p> 
 		</div>
 	</div>
 </div>
@@ -214,24 +218,67 @@ img.hover-shadow {
 	  <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext">1 / 13</div>
         <img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-        <img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" style="width:100%">
+      <div class="numbertext">2 / 13</div>
+        <img src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-        <img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" style="width:100%">
+      <div class="numbertext">3 / 13</div>
+        <img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-        <img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" style="width:100%">
+      <div class="numbertext">4 / 13</div>
+        <img src="app/Templates/Business/Assets/images/MotteCastrale023.jpg" style="width:100%">
     </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 13</div>
+        <img src="app/Templates/Business/Assets/images/claimaraisbareaux42010.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 13</div>
+        <img src="app/Templates/Business/Assets/images/claimaraispaysageprintemps.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 13</div>
+        <img src="app/Templates/Business/Assets/images/claimarais_romelaere.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 13</div>
+        <img src="app/Templates/Business/Assets/images/ClairmaraisMaraisRomelaere.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 13</div>
+        <img src="app/Templates/Business/Assets/images/DOMELaCoupole.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 13</div>
+        <img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 13</div>
+        <img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 13</div>
+        <img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">13 / 13</div>
+        <img src="app/Templates/Business/Assets/images/vueaeriennemaraisaudomaroisIsnor.jpg" style="width:100%">
+    </div>
+
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -241,20 +288,53 @@ img.hover-shadow {
     </div>
 
     <div class="column">
-      <img class="demo" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="currentSlide(1)" alt="Nature">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="currentSlide(1)" alt="Nature">
     </div>
 
     <div class="column">
-      <img class="demo" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="currentSlide(2)" alt="Trolltunga">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO.jpg" onclick="currentSlide(2)" alt="Trolltunga">
     </div>
 
     <div class="column">
-      <img class="demo" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="currentSlide(3)" alt="Mountains">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" onclick="currentSlide(3)" alt="Mountains">
     </div>
 
     <div class="column">
-      <img class="demo" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="currentSlide(4)" alt="Lights">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/MotteCastrale023.jpg" onclick="currentSlide(4)" alt="Lights">
     </div>
+    <!-- <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/claimaraisbareaux42010.jpg" onclick="currentSlide(5)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/claimaraispaysageprintemps.jpg" onclick="currentSlide(6)" alt="Trolltunga">
+    </div>
+
+    <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/claimarais_romelaere.jpg" onclick="currentSlide(7)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/ClairmaraisMaraisRomelaere.jpg" onclick="currentSlide(8)" alt="Lights">
+    </div>
+     <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/DOMELaCoupole.jpg" onclick="currentSlide(9)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.jpg" onclick="currentSlide(10)" alt="Trolltunga">
+    </div>
+
+    <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.jpg" onclick="currentSlide(11)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" onclick="currentSlide(12)" alt="Lights">
+    </div>
+     <div class="column">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/vueaeriennemaraisaudomaroisIsnor.jpg" onclick="currentSlide(13)" alt="Lights">
+    </div>-->
   </div>
 </div>
 
