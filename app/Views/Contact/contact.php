@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="row">
         <h2 id="titre_contact" class="col-xs-12">Pour toutes questions suppl&eacute;mentaires, contactez nous: </h2>
-		<form class="form-horizontal" role="form" action="contact/envoieForm" method="post" id="form_email" >
+		<form class="form-horizontal" role="form" action="contact/sendForm" method="post" id="form_email" >
                 <div class="form-group">
                     <label for="inputEmail1" class="col-lg-4 control-label"></label>
                     <div class="col-lg-12">
