@@ -55,7 +55,7 @@
                             <a href="aux-alentours">Aux alentours</a>
                         </li>
                         <li>
-                            <a href="le-gite">Le gite/a>
+                            <a href="le-gite">Le gite</a>
                         </li>
                         <li>
                             <a href="reservation">R&eacute;servation</a>
