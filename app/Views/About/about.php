@@ -13,10 +13,9 @@
 		A l'&eacute;tage : 3 chambres (2 chambres avec dans chacune 1 lit 140 X 190 et 1 lit 90 X 190 et 1
 		chambre avec 2 lits 90 X 190), 1 salle d'eau avec douche, 1 WC s&eacute;par&eacute;s. Chauffage &eacute;lectrique
 		charges non comprises, taxe de s&eacute;jour, caution.<br /><br />
-		 Animaux : 0.50 &euro;/jour/animal.<br /><br />
-		  Remise de 10 % sur
-		tarif si location de plus de 21 jours. Taxe de s&eacute;jour : 0.30&euro;/jour/adulte. St Omer 8 km (marais
-		audomarois), Gravelines 27km, Calais 30 km. Plan&eacute;tarium de la Coupole d'Helfaut, plages à 30 min,
+		
+		 St Omer 8 km (marais
+		audomarois), Gravelines 27km, Calais 30 km. Plan&eacute;tarium de la Coupole d'Helfaut, plages &agrave; 30 min,
 		blockhaus d'Eperlecques.
 			</p>
 			<p>
@@ -25,7 +24,7 @@
 			</p>
 			<p>
 			Suppl&eacute;ments : Location draps lit 1 personne (8&euro;), Forfait m&eacute;nage facultatif (35&euro;), Location de draps lit 2
-			personnes (8&euro;), Suppl&eacute;ment par animal et par jour (0.50&euro;)
+			personnes (8&euro;).
 			</p>
 		</div>
 
