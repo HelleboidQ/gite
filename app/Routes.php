@@ -35,7 +35,7 @@ Router::any('/aux-alentours', 'App\Controllers\Gallery@index');
 Router::any('/contact', 'App\Controllers\Contact@index');
 
 // About Routing
-Router::any('/a-propos', 'App\Controllers\About@index');
+Router::any('/le-gite', 'App\Controllers\About@index');
 // Reservation Routing
 Router::any('/reservation', 'App\Controllers\Reservation@index');
 // Mentions legales Routing
