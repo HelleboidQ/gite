@@ -51,12 +51,10 @@ class Contact extends Controller {
 
 ////ici on détermine l'expediteur et l'adresse de réponse
             $headers .= "From: $nom <$mail>\r\nReply-to : $nom <$mail>\nX-Mailer:PHP";
-
-            $subject = "$objet";
-            $destinataire = "quentin.helleboid@gmail.com";
-            $body = "$message";
-            if (mail($destinataire, $subject, $body, $headers)) {
-                echo "Votre mail a été envoyé<br>";
+ 
+            $destinataire = "quentin.helleboid@gmail.com"; 
+            if (mail($destinataire, $objet, $message, $headers)) {
+                echo "Votre mail a été envoyé<br>"; 
             } else {
                 echo "Une erreur s'est produite";
             }
@@ -65,7 +63,7 @@ class Contact extends Controller {
         $data['title'] = "Contactez-nous!";
         $data['descriptionMeta'] = "Contactez-nous pour plus d'informations concernant la période ou le lieu, afin de mieux vous aiguillez pendant votre séjour.";
 
-        Url::previous();
+       // Url::previous();
     }
 }
 
