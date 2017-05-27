@@ -33,6 +33,7 @@ Router::any('/aux-alentours', 'App\Controllers\Gallery@index');
 
 // Contact Routing
 Router::any('/contact', 'App\Controllers\Contact@index');
+Router::any('/contact/sendForm', 'App\Controllers\Contact@sendForm');
 
 // About Routing
 Router::any('/le-gite', 'App\Controllers\About@index');
