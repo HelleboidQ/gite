@@ -28,7 +28,7 @@
 			</p>
 		</div>
 <script type="text/javascript"
-src="http://widget.itea.fr/js/itea_widget.js"></script>
+src="https://widget.itea.fr/js/itea_widget.js"></script>
 <div id="widget_itea_avis-8ns59WuY-G746804"></div>
 <script type="text/javascript">
 widgetItea('avis');
