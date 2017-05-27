@@ -35,7 +35,7 @@
 </script>
 
 <iframe width="600" scrolling="yes" height="400" frameborder="0" border="0"
-src="http://widget.itea.fr/widget_itea_avis.html?key=8ns59WuY&numgite=G746804" >
+src="https://widget.itea.fr/widget_itea_avis.html?key=8ns59WuY&numgite=G746804" >
 </iframe>
 
 
