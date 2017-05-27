@@ -34,6 +34,24 @@ class Contact extends Controller {
 
     public function sendForm(){
         print_r($_POST);
+        // Ma clé privée
+    $secret = "6LfZMSYTAAAAAJlENUJ1_BkIs267HRK9IK1dNvF4";
+    // Paramètre renvoyé par le recaptcha
+    $response = $_POST['g-recaptcha-response'];
+    // On récupère l'IP de l'utilisateur
+    $remoteip = $_SERVER['REMOTE_ADDR'];
+    $api_url = "https://www.google.com/recaptcha/api/siteverify?secret=" 
+        . $secret
+        . "&response=" . $response
+        . "&remoteip=" . $remoteip ;
+
+        $decode = json_decode(file_get_contents($api_url), true);
+    
+    if ($decode['success'] == true) {
+        echo "OK";
+    }
+
+
 
         if (isset($_POST["envoyer"])) {
             ini_set('SMTP', 'localhost');
