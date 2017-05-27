@@ -18,21 +18,23 @@ $router = Router::getInstance();
 // Default Routing
 Router::any('', 'App\Controllers\Welcome@index');
 Router::any('/gite', 'App\Controllers\Welcome@index');
-Router::any('subpage', 'App\Controllers\Welcome@subPage');
 
+/*
+Router::any('subpage', 'App\Controllers\Welcome@subPage');
 
 //User Routing :
 Router::any('/utilisateur/inscription', 'App\Modules\User\User@register');
 Router::any('/utilisateur/login', 'App\Modules\User\User@login');
 Router::any('/utilisateur/logout', 'App\Modules\User\User@logout');
 Router::any('/utilisateur/modification', 'App\Modules\User\User@change_password');
-
+*/
 
 // Gallery Routing
 Router::any('/aux-alentours', 'App\Controllers\Gallery@index');
 
 // Contact Routing
-Router::any('/contact', 'App\Controllers\Contact@index');
+Router::any('/contact', 'App\Controllers\Contact@index'); 
+Router::any('/gite/contact', 'App\Controllers\Contact@index'); 
 Router::any('/contact/sendForm', 'App\Controllers\Contact@sendForm');
 
 // About Routing
