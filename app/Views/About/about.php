@@ -27,13 +27,25 @@
 			personnes (8&euro;).
 			</p>
 		</div>
+		<!--
 <script type="text/javascript" src="https://widget.itea.fr/js/itea_widget.js"  ></script>
-
+-->
+<!--
 <div id="widget_itea_avis-8ns59WuY-G746804"></div>
 <script type="text/javascript">
 	widgetItea('avis');
 </script>
-
+-->
+<!--
+<script type="text/javascript">
+var parametresWidget = {
+key : "8ns59WuY",
+numGite : "G746804",
+widget : "avis"
+} ;
+widgetIteaGL(parametresWidget);
+</script>
+-->
 <!--
 <iframe width="600" scrolling="yes" height="400" frameborder="0" border="0"
 src="https://widget.itea.fr/widget_itea_avis.html?key=8ns59WuY&numgite=G746804" >
