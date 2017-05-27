@@ -35,7 +35,7 @@ class Contact extends Controller {
     public function sendForm(){
         print_r($_POST);
         // Ma clé privée
-    $secret = "6LfZMSYTAAAAAJlENUJ1_BkIs267HRK9IK1dNvF4";
+    $secret = "6LeeLCMUAAAAAMmDN4JUpzeTslhLZAP4hlo7olDo";
     // Paramètre renvoyé par le recaptcha
     $response = $_POST['g-recaptcha-response'];
     // On récupère l'IP de l'utilisateur
