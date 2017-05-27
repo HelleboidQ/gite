@@ -1,6 +1,3 @@
-
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
 <div class="container">
 	<div class="row">
         <h2 id="titre_contact" class="col-xs-12">Pour toutes questions suppl&eacute;mentaires, contactez nous: </h2>
