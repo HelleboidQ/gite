@@ -17,6 +17,7 @@
         echo $css; //place to pass data / plugable hook zone
         ?>
         <link rel="icon" type="image/png" href="<?=Url::templatePath()?>images/fav_64.png" /> 
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
         <?php echo $afterBody; //place to pass data / plugable hook zone?>
