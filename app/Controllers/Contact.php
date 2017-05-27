@@ -33,6 +33,7 @@ class Contact extends Controller {
     }
 
     public function sendForm(){
+        print_r($_POST);
 
         if (isset($_POST["envoyer"])) {
             ini_set('SMTP', 'localhost');
