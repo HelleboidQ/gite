@@ -20,14 +20,27 @@
                         <textarea  class="form-control" name="message" required placeholder="Message ..." rows="8" ></textarea>
                     </div>
                 </div>
-                 <div class="form-group">
+               <!--  <div class="form-group">
                         <div class="g-recaptcha col-lg-12" data-sitekey="6LfZMSYTAAAAAAw3tibuzOdPyyd3jitLrYnSkUMG"></div>
-                </div>
+                </div>-->
                 <div class="form-group">
                     <div class="col-lg-12">
-                        <button type="submit" name="envoyer" id="send_mail" class="btn btn-success">Envoyer</button>
+                        <button
+                            class="g-recaptcha btn btn-success"
+                            id="send_mail"
+                            data-sitekey="6LeeLCMUAAAAAKRm_2JAl47TxOMfuuWB3KyTBGBQ"
+                            data-callback="YourOnSubmitFn">
+                            Envoyer
+                        </button>
+                        <!--<button type="submit" name="envoyer" id="send_mail" class="btn btn-success">Envoyer</button>-->
                     </div>
                 </div>
             </form><!-- form -->
 	</div>
 </div>
+
+ <script>
+       function YourOnSubmitFn(token) {
+         document.getElementById("form_email").submit();
+       }
+     </script>
