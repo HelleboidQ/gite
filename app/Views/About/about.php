@@ -24,7 +24,7 @@
 			</p>
 			<p>
 			Suppl&eacute;ments : Location draps lit 1 personne (8&euro;), Forfait m&eacute;nage facultatif (35&euro;), Location de draps lit 2
-			personnes (8&euro;).
+			personnes (8&euro;), animaux 0.50&euro; par 1 nuit.
 			</p>
 		</div>
 <!--
