@@ -65,7 +65,7 @@ class Contact extends Controller {
         $data['title'] = "Contactez-nous!";
         $data['descriptionMeta'] = "Contactez-nous pour plus d'informations concernant la période ou le lieu, afin de mieux vous aiguillez pendant votre séjour.";
 
-        Url::redirect('contact');
+        Url::redirect('index');
     }
 }
 
