@@ -179,7 +179,7 @@ img.hover-shadow {
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/DOMELaCoupole.JPG" onclick="openModal();currentSlide(9)" class="col-xs-12 img-responsive" alt="" />
+		 	<img src="app/Templates/Business/Assets/images/DOMELaCoupole.jpg" onclick="openModal();currentSlide(9)" class="col-xs-12 img-responsive" alt="" />
 		 	<p>Dome de la Coupole - La Coupole</p> 
 		</div>
 </div>
@@ -187,12 +187,12 @@ img.hover-shadow {
 		<div class="col-xs-12">
 			<div class="row">
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.JPG" onclick="openModal();currentSlide(10)" class="col-xs-12 img-responsive" alt="" />
+		 	<img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.jpg" onclick="openModal();currentSlide(10)" class="col-xs-12 img-responsive" alt="" />
 		 	<p>La Coupole</p> 
 		</div>
 
 		<div class="col-xs-4"> 
-		 	<img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.JPG" onclick="openModal();currentSlide(11)" class="col-xs-12 img-responsive" alt="" />
+		 	<img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.jpg" onclick="openModal();currentSlide(11)" class="col-xs-12 img-responsive" alt="" />
 		 	<p>Ruines Saint Bertin - Otrso</p> 
 		</div>
 
