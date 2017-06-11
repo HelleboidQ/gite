@@ -219,64 +219,64 @@ img.hover-shadow {
 
     <div class="mySlides">
       <div class="numbertext">1 / 13</div>
-        <img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 13</div>
-        <img src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 13</div>
-        <img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">4 / 13</div>
-        <img src="app/Templates/Business/Assets/images/MotteCastrale023.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/MotteCastrale023_1.jpg" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">5 / 13</div>
-        <img src="app/Templates/Business/Assets/images/claimaraisbareaux42010.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/claimaraisbareaux42010_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">6 / 13</div>
-        <img src="app/Templates/Business/Assets/images/claimaraispaysageprintemps.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/claimaraispaysageprintemps_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">7 / 13</div>
-        <img src="app/Templates/Business/Assets/images/claimarais_romelaere.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/claimarais_romelaere_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">8 / 13</div>
-        <img src="app/Templates/Business/Assets/images/ClairmaraisMaraisRomelaere.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/ClairmaraisMaraisRomelaere_1.jpg" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">9 / 13</div>
-        <img src="app/Templates/Business/Assets/images/DOMELaCoupole.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/DOMELaCoupole_1.jpg" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">10 / 13</div>
-        <img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/LACOUPOLEINTERIEURLaCoupole_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">11 / 13</div>
-        <img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/RUINESSAINTBERTINOTRSO_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">12 / 13</div>
-        <img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO_1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">13 / 13</div>
-        <img src="app/Templates/Business/Assets/images/vueaeriennemaraisaudomaroisIsnor.jpg" style="width:100%">
+        <img src="app/Templates/Business/Assets/images/vueaeriennemaraisaudomaroisIsnor_1.jpg" style="width:100%">
     </div>
 
 
@@ -288,19 +288,19 @@ img.hover-shadow {
     </div>
 
     <div class="column">
-      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle.jpg" onclick="currentSlide(1)" alt="Nature">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/cathedraleNotreDamePhilippeHudelle_2.jpg" onclick="currentSlide(1)" alt="Nature">
     </div>
 
     <div class="column">
-      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO.jpg" onclick="currentSlide(2)" alt="Trolltunga">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/CHAPELLEDESJESUITESOTRSO_2.jpg" onclick="currentSlide(2)" alt="Trolltunga">
     </div>
 
     <div class="column">
-      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO.jpg" onclick="currentSlide(3)" alt="Mountains">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/BACOVE_2013OTRSO_2.jpg" onclick="currentSlide(3)" alt="Mountains">
     </div>
 
     <div class="column">
-      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/MotteCastrale023.jpg" onclick="currentSlide(4)" alt="Lights">
+      <img class="demo img-responsive" src="app/Templates/Business/Assets/images/MotteCastrale023_2.jpg" onclick="currentSlide(4)" alt="Lights">
     </div>
     <!-- <div class="column">
       <img class="demo img-responsive" src="app/Templates/Business/Assets/images/claimaraisbareaux42010.jpg" onclick="currentSlide(5)" alt="Nature">
