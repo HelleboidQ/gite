@@ -15,7 +15,12 @@
 
                     </p>
                     <p>
-                        Maison individuelle d'un capacité de 8 personnes situé au centre du village avec un terrain clos privatif de 1000 m<sup>2</sup>.
+                        Maison individuelle d'un capacit&eacute; de 8 personnes situ&eacute; au centre du village avec un terrain clos privatif de 1000 m<sup>2</sup>.
+                        </p>
+                    <p>
+                         St Omer 8 km (marais
+        audomarois), Gravelines 27km, Calais 30 km. Plan&eacute;tarium de la Coupole d'Helfaut, plages &agrave; 30 min,
+        blockhaus d'Eperlecques.
                     </p>
                 </div>
             </div>

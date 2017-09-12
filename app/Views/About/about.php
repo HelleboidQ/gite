@@ -13,12 +13,9 @@
 		chambre avec 2 lits 90 X 190), 1 salle d'eau avec douche, 1 WC s&eacute;par&eacute;s. Chauffage &eacute;lectrique
 		charges non comprises, taxe de s&eacute;jour, caution.<br /><br />
 		
-		 St Omer 8 km (marais
-		audomarois), Gravelines 27km, Calais 30 km. Plan&eacute;tarium de la Coupole d'Helfaut, plages &agrave; 30 min,
-		blockhaus d'Eperlecques.
 			</p>
 			<p>
-			- Classement : 3 &eacute;pis / 3 &eacute;toiles - Capacit&eacute; : 8 personnes - Nombre de chambres : . 3 chambres. -
+			Classement : 3 &eacute;pis / 3 &eacute;toiles - Capacit&eacute; : 8 personnes - Nombre de chambres : 3 chambres -
 			Superficie : 120 m<sup>2</sup>
 			</p>
 			<p>
