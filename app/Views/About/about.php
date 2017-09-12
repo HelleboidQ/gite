@@ -6,8 +6,7 @@
 		</div>
 		<div class="col-md-5 col-xs-12" id="about_text">
 			<p>
-			Au centre du village. Maison individuelle. Terrain clos
-		privatif de 1000 m<sup>2</sup>, abri couvert pour stationnement. <br /><br /> Rez-de-chauss&eacute;e : s&eacute;jour/coin-cuisine
+		 Rez-de-chauss&eacute;e : s&eacute;jour/coin-cuisine
 		(frigo-cong&eacute;lateur, plaques &eacute;lectriques, micro-ondes, four, lave-vaisselle) coin salon, salle d'eau, WC
 		s&eacute;par&eacute;s. <br /><br />
 		A l'&eacute;tage : 3 chambres (2 chambres avec dans chacune 1 lit 140 X 190 et 1 lit 90 X 190 et 1
@@ -27,6 +26,7 @@
 			personnes (8&euro;), animaux 0,50&euro; par animal par 1 nuit.
 			</p>
 		</div>
+		<?php /*
 <!--
 <script type="text/javascript" src="https://widget.itea.fr/js/itea_widget.js"  ></script>-->
 <!--
@@ -50,6 +50,6 @@ widgetIteaGL(parametresWidget);
 src="https://widget.itea.fr/widget_itea_avis.html?key=8ns59WuY&numgite=G746804" >
 </iframe>
 -->
-
+*/ ?>
 	</div>
 </div>

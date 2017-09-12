@@ -12,9 +12,10 @@
                     <hr class="visible-xs">
                     <p>
                         Ce g&icirc;te situ&eacute; dans un petit village paisible pr&egrave;s de St-Omer est l'endroit id&eacute;al pour prendre du bon temps et se reposer.
+
                     </p>
                     <p>
-
+                        Maison individuelle d'un capacité de 8 personnes situé au centre du village avec un terrain clos privatif de 1000 m<sup>2</sup>.
                     </p>
                 </div>
             </div>
